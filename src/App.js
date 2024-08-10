@@ -1,6 +1,6 @@
 // App.js
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   const [headerDone, setHeaderDone] = useState(false);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Header setDone={setHeaderDone} />
         <Routes>
@@ -19,7 +19,7 @@ function App() {
           {headerDone && <Route path="/" element={<Homepage />} />}
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
