@@ -1,5 +1,5 @@
 // App.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Experience from './components/Experience';
@@ -9,6 +9,9 @@ import './App.css';
 
 function App() {
   const [headerDone, setHeaderDone] = useState(false);
+  useEffect(() => {
+      document.title = "Nick Tarallo - Personal Site"
+  }, []);
   return (
     <HashRouter>
       <div className="App">
