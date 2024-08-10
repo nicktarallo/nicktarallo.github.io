@@ -5,7 +5,7 @@ import ProjectSection from './ProjectSection';
 function Projects() {
 
   const projects = [
-    { title: 'This Site!', dates: 'Aug 2024', github: 'https://github.com/', points: [
+    { title: 'This Site!', dates: 'Aug 2024', github: 'https://github.com/nicktarallo/nicktarallo.github.io', points: [
       'Created front-end website with React to display personal work experience and projects',
       'Deployed statically for resource-efficient public usage',
     ]},
