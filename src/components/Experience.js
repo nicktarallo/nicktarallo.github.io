@@ -9,7 +9,7 @@ function Experience() {
       'Utilized Django and React to contribute to a full-stack web application used by the Orioles front office, coaches, and players',
       'Created 3 brand new dashboards used by pitching staff, strength and conditioning staff, and analytics department',
       'Accessed and manipulated data with SQL, AWS S3, NumPy, and Pandas',
-      'Deployed 4 serverless data processors with AWS Lambda, triggered via AWS SQS or cron to generate data about player peformance over each game or day to support web dashboards and baseball analyst needs'
+      'Deployed 4 serverless data processors with AWS Lambda, triggered via AWS SQS or cron to generate data about player performance over each game or day to support web dashboards and baseball analyst needs'
     ]},
     { company: 'Khoury College of Computer Sciences', role: 'Undergraduate Teaching Assistant', dates: 'Sep 2022 - Dec 2023', points: [
       'Taught students fundamental concepts of computer science in Racket and Java including object-oriented principles, non-primitive data structures, and algorithms to operate on such data structures',

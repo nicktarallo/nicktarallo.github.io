@@ -9,7 +9,7 @@ function Projects() {
       'Created front-end website with React to display personal work experience and projects',
       'Deployed statically for resource-efficient public usage',
     ]},
-    { title: 'Gold Price Prediction', dates: 'Oct - Nov 2022', github: 'https://github.com/nicktarallo/gold-prediction', points: [
+    { title: 'Gold Price Prediction', dates: 'Oct - Dec 2023', github: 'https://github.com/nicktarallo/gold-prediction', points: [
       'Explored machine learning models to predict gold price action on the current day based on the last n days',
       'Added in additional data such as the CBOE Volatility Index to see if correlations could improve predictions',
       'Utilized LDA, Gaussian Naive Bayes, Logistic Regression, Decision Trees, Random Forest Classifiers, and Rolling Window Linear Regression to make predictions',
